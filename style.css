@@ -1,0 +1,56 @@
+body{
+margin:0;
+font-family:Arial, sans-serif;
+color:white;
+text-align:center;
+background:black;
+}
+
+canvas{
+position:fixed;
+top:0;
+left:0;
+z-index:-1;
+}
+
+header{
+padding:20px;
+background:rgba(0,0,0,0.7);
+border-bottom:2px solid #ff00ff;
+}
+
+nav a{
+margin:15px;
+color:#00ffff;
+text-decoration:none;
+font-weight:bold;
+}
+
+nav a:hover{
+color:#ff00ff;
+}
+
+section{
+padding:60px 20px;
+background:rgba(0,0,0,0.5);
+margin:40px;
+border-radius:10px;
+}
+
+.profile{
+width:140px;
+border-radius:50%;
+border:3px solid #00ffff;
+}
+
+.media{
+width:250px;
+border:2px solid #ff00ff;
+margin-bottom:20px;
+}
+
+footer{
+padding:20px;
+background:rgba(0,0,0,0.7);
+border-top:2px solid #ff00ff;
+}
